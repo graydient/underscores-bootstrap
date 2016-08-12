@@ -9,12 +9,10 @@
 
 get_header(); ?>
 
-<div class="carousel-wrap">
-  <div class="owl-carousel">
+<div id="owl-demo" class="owl-carousel owl-theme">
     <div class="item"><img src="http://placehold.it/450x150"></div>
     <div class="item"><img src="http://placehold.it/450x150"></div>
     <div class="item"><img src="http://placehold.it/450x150"></div>
-  </div>
 </div>
 
 <div class="wrapper" id="full-width-page-wrapper">

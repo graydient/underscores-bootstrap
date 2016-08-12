@@ -7193,3 +7193,30 @@ a.skip-link {
       border-radius: 30px; }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background: #869791; }
+
+/* Demo Slides */
+#owl-example .item {
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center; }
+
+#owl-example .item img {
+  width: auto;
+  margin: 0 auto;
+  display: block; }
+
+#owl-example .item h3 {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 25px 0 0; }
+
+#owl-example .item h4 {
+  margin: 5px 0 0;
+  font-size: 18px; }
+
+.item h1 {
+  margin: inherit; }
