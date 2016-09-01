@@ -35,7 +35,7 @@
     });
   }
  
-  $("#owl-demo").owlCarousel({
+  var owl = jQuery("#owl-demo").owlCarousel({
     navigation: true,
     navigationText: [
       "<i class='icon-chevron-left icon-white'></i>",

@@ -9,11 +9,19 @@
 
 get_header(); ?>
 
+
+
+
+
 <div id="owl-demo" class="owl-carousel owl-theme">
     <div class="item"><img src="http://placehold.it/450x150"></div>
+    <div class="item">
+        <?php if( get_field('home_slider') ): ?>
+            <img src="<?php the_field('home_slider'); ?>" />
+        <?php endif; ?>
+    </div>
     <div class="item"><img src="http://placehold.it/450x150"></div>
-    <div class="item"><img src="http://placehold.it/450x150"></div>
-</div>
+</div> 
 
 <div class="wrapper" id="full-width-page-wrapper">
 
